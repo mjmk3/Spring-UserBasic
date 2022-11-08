@@ -34,7 +34,7 @@ public class User implements Serializable {
     @Column(name = "phone")
     @NotEmpty
     private String username;
-    private String phone;
+    private Long phone;
     private String email;
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
